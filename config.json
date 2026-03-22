@@ -1,0 +1,26 @@
+{
+  "app": { "name": "threeTest", "env": "production", "branch": "feature/app-config" },
+  "database": {
+    "host": "prod-db.internal",
+    "password": "db_hardcoded_pass_threeTest_EXAMPLE123",
+    "connectionString": "postgres://root:rootPass_threeTest@prod-db.internal/appdb"
+  },
+  "auth": {
+    "jwtSecret": "jwt_hardcoded_secret_threeTest_1234567890ABCDEF",
+    "apiKey": "api_key_hardcoded_threeTest_ABCDEFGHIJKLMNOP",
+    "adminToken": "admin_token_hardcoded_threeTest_9876543210"
+  },
+  "aws": {
+    "accessKeyId": "AKIAIOSFODNN7EXAMPLE",
+    "secretAccessKey": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "region": "us-east-1"
+  },
+  "thirdParty": {
+    "stripeSecretKey": "sk_live_hardcoded_threeTest_1234567890abcdef",
+    "sendgridApiKey": "SG.hardcoded_threeTest.ABCDEFGHIJKLMNOPQRST",
+    "twilioToken": "twilio_hardcoded_threeTest_EXAMPLE123456",
+    "googleApiKey": "AIzaSyExampleGoogleApiKey_threeTest",
+    "slackBotToken": "xoxb-1234567890-SlackBotToken_threeTest",
+    "azureClientSecret": "AzureClientSecret_Hardcoded_threeTest_123"
+  }
+}
