@@ -1,0 +1,6 @@
+aws_access_key      = "********************"
+aws_secret_key      = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+db_password         = "terraform_db_threeTest_hardcoded2024"
+azure_client_secret = "AzureTF_ClientSecret_threeTest_hardcoded_XYZ"
+gcp_credentials     = "gcp_sa_json_hardcoded_threeTest_BASE64=="
+github_token        = "ghp_ExampleGitHubPAT_threeTest_hardcoded123"
