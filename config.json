@@ -1,5 +1,5 @@
 {
-  "app": { "name": "threeTest", "env": "production", "branch": "main" },
+  "app": { "name": "threeTest", "env": "production", "branch": "feature/app-config" },
   "database": {
     "host": "prod-db.internal",
     "password": "db_hardcoded_pass_threeTest_EXAMPLE123",
